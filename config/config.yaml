@@ -1,0 +1,6 @@
+# image topic
+topic: /camera/infra1/image_rect_raw/compressed
+# save path
+path: /home/csw/dataset/robot_img/first/UAV3
+# save image name
+fileName: robot_

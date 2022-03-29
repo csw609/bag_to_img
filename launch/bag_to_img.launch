@@ -1,0 +1,8 @@
+<launch>
+    <arg name="config" default="config.yaml"/>
+
+    <rosparam command="load" file="$(find bag_to_img)/config/$(arg config)" />
+
+    <node pkg="bag_to_img" type="bag_to_img" name="bag_to_img" output="screen">
+    </node>
+</launch>
